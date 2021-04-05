@@ -1,0 +1,1857 @@
+title: French Voice for KH1
+originalAuthor: Fotia
+game: kh1
+description: This will patch all voices of the game Kingdom Hearts Final Mix into French, excepted for pre-rendered ones and "compatibile" with ThePenitentTextures1's patch
+assets:
+  - name: title/title.img
+    method: copy
+    source:
+      - name: title/title.img
+  - name: voice/aladdin.vsb
+    method: copy
+    source:
+      - name: voice/aladdin.vsb
+  - name: voice/al_donald.vsb
+    method: copy
+    source:
+      - name: voice/al_donald.vsb
+  - name: voice/al_goofy.vsb
+    method: copy
+    source:
+      - name: voice/al_goofy.vsb
+  - name: voice/al_sora.vsb
+    method: copy
+    source:
+      - name: voice/al_sora.vsb
+  - name: voice/al_sora2.vsb
+    method: copy
+    source:
+      - name: voice/al_sora2.vsb
+  - name: voice/ariel.vsb
+    method: copy
+    source:
+      - name: voice/ariel.vsb
+  - name: voice/aw_donald.vsb
+    method: copy
+    source:
+      - name: voice/aw_donald.vsb
+  - name: voice/aw_goofy.vsb
+    method: copy
+    source:
+      - name: voice/aw_goofy.vsb
+  - name: voice/aw_sora.vsb
+    method: copy
+    source:
+      - name: voice/aw_sora.vsb
+  - name: voice/beast.vsb
+    method: copy
+    source:
+      - name: voice/beast.vsb
+  - name: voice/di_sora.vsb
+    method: copy
+    source:
+      - name: voice/di_sora.vsb
+  - name: voice/event/al/al_001.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_001.vset
+  - name: voice/event/al/al_002.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_002.vset
+  - name: voice/event/al/al_010.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_010.vset
+  - name: voice/event/al/al_011.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_011.vset
+  - name: voice/event/al/al_012.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_012.vset
+  - name: voice/event/al/al_013.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_013.vset
+  - name: voice/event/al/al_014.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_014.vset
+  - name: voice/event/al/al_015.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_015.vset
+  - name: voice/event/al/al_016.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_016.vset
+  - name: voice/event/al/al_017.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_017.vset
+  - name: voice/event/al/al_090.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_090.vset
+  - name: voice/event/al/al_091.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_091.vset
+  - name: voice/event/al/al_100.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_100.vset
+  - name: voice/event/al/al_101.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_101.vset
+  - name: voice/event/al/al_102.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_102.vset
+  - name: voice/event/al/al_103.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_103.vset
+  - name: voice/event/al/al_104.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_104.vset
+  - name: voice/event/al/al_105.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_105.vset
+  - name: voice/event/al/al_106.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_106.vset
+  - name: voice/event/al/al_201.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_201.vset
+  - name: voice/event/al/al_202.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_202.vset
+  - name: voice/event/al/al_203.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_203.vset
+  - name: voice/event/al/al_204.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_204.vset
+  - name: voice/event/al/al_205.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_205.vset
+  - name: voice/event/al/al_206.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_206.vset
+  - name: voice/event/al/al_207.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_207.vset
+  - name: voice/event/al/al_208.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_208.vset
+  - name: voice/event/al/al_209.vset
+    method: copy
+    source:
+      - name: voice/event/al/al_209.vset
+  - name: voice/event/aw/aw_001.vset
+    method: copy
+    source:
+      - name: voice/event/aw/aw_001.vset
+  - name: voice/event/aw/aw_003.vset
+    method: copy
+    source:
+      - name: voice/event/aw/aw_003.vset
+  - name: voice/event/aw/aw_005.vset
+    method: copy
+    source:
+      - name: voice/event/aw/aw_005.vset
+  - name: voice/event/aw/aw_006.vset
+    method: copy
+    source:
+      - name: voice/event/aw/aw_006.vset
+  - name: voice/event/aw/aw_007.vset
+    method: copy
+    source:
+      - name: voice/event/aw/aw_007.vset
+  - name: voice/event/aw/aw_008.vset
+    method: copy
+    source:
+      - name: voice/event/aw/aw_008.vset
+  - name: voice/event/aw/aw_009.vset
+    method: copy
+    source:
+      - name: voice/event/aw/aw_009.vset
+  - name: voice/event/aw/aw_010.vset
+    method: copy
+    source:
+      - name: voice/event/aw/aw_010.vset
+  - name: voice/event/aw/aw_011.vset
+    method: copy
+    source:
+      - name: voice/event/aw/aw_011.vset
+  - name: voice/event/dc/dc_001.vset
+    method: copy
+    source:
+      - name: voice/event/dc/dc_001.vset
+  - name: voice/event/dc/dc_002.vset
+    method: copy
+    source:
+      - name: voice/event/dc/dc_002.vset
+  - name: voice/event/dc/dc_003.vset
+    method: copy
+    source:
+      - name: voice/event/dc/dc_003.vset
+  - name: voice/event/dc/dc_004.vset
+    method: copy
+    source:
+      - name: voice/event/dc/dc_004.vset
+  - name: voice/event/dc/dc_005.vset
+    method: copy
+    source:
+      - name: voice/event/dc/dc_005.vset
+  - name: voice/event/dc/dc_006.vset
+    method: copy
+    source:
+      - name: voice/event/dc/dc_006.vset
+  - name: voice/event/dc/dc_007.vset
+    method: copy
+    source:
+      - name: voice/event/dc/dc_007.vset
+  - name: voice/event/dc/dc_008.vset
+    method: copy
+    source:
+      - name: voice/event/dc/dc_008.vset
+  - name: voice/event/di/di_001.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_001.vset
+  - name: voice/event/di/di_002.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_002.vset
+  - name: voice/event/di/di_003.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_003.vset
+  - name: voice/event/di/di_004.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_004.vset
+  - name: voice/event/di/di_005.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_005.vset
+  - name: voice/event/di/di_006.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_006.vset
+  - name: voice/event/di/di_007.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_007.vset
+  - name: voice/event/di/di_008.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_008.vset
+  - name: voice/event/di/di_009.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_009.vset
+  - name: voice/event/di/di_010.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_010.vset
+  - name: voice/event/di/di_011.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_011.vset
+  - name: voice/event/di/di_012.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_012.vset
+  - name: voice/event/di/di_013.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_013.vset
+  - name: voice/event/di/di_014.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_014.vset
+  - name: voice/event/di/di_015.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_015.vset
+  - name: voice/event/di/di_016.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_016.vset
+  - name: voice/event/di/di_017.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_017.vset
+  - name: voice/event/di/di_018.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_018.vset
+  - name: voice/event/di/di_019.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_019.vset
+  - name: voice/event/di/di_020.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_020.vset
+  - name: voice/event/di/di_021.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_021.vset
+  - name: voice/event/di/di_022.vset
+    method: copy
+    source:
+      - name: voice/event/di/di_022.vset
+  - name: voice/event/di/hu_001.vset
+    method: copy
+    source:
+      - name: voice/event/di/hu_001.vset
+  - name: voice/event/di/hu_002.vset
+    method: copy
+    source:
+      - name: voice/event/di/hu_002.vset
+  - name: voice/event/di/hu_003.vset
+    method: copy
+    source:
+      - name: voice/event/di/hu_003.vset
+  - name: voice/event/di/hu_004.vset
+    method: copy
+    source:
+      - name: voice/event/di/hu_004.vset
+  - name: voice/event/di/hu_005.vset
+    method: copy
+    source:
+      - name: voice/event/di/hu_005.vset
+  - name: voice/event/di/hu_006.vset
+    method: copy
+    source:
+      - name: voice/event/di/hu_006.vset
+  - name: voice/event/di/hu_007.vset
+    method: copy
+    source:
+      - name: voice/event/di/hu_007.vset
+  - name: voice/event/ew/ew_001.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_001.vset
+  - name: voice/event/ew/ew_002.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_002.vset
+  - name: voice/event/ew/ew_003.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_003.vset
+  - name: voice/event/ew/ew_004.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_004.vset
+  - name: voice/event/ew/ew_005.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_005.vset
+  - name: voice/event/ew/ew_006.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_006.vset
+  - name: voice/event/ew/ew_007.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_007.vset
+  - name: voice/event/ew/ew_008.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_008.vset
+  - name: voice/event/ew/ew_009.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_009.vset
+  - name: voice/event/ew/ew_010.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_010.vset
+  - name: voice/event/ew/ew_011.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_011.vset
+  - name: voice/event/ew/ew_012.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_012.vset
+  - name: voice/event/ew/ew_013.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_013.vset
+  - name: voice/event/ew/ew_014.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_014.vset
+  - name: voice/event/ew/ew_015.vset
+    method: copy
+    source:
+      - name: voice/event/ew/ew_015.vset
+  - name: voice/event/he/he_001.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_001.vset
+  - name: voice/event/he/he_002.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_002.vset
+  - name: voice/event/he/he_003.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_003.vset
+  - name: voice/event/he/he_004.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_004.vset
+  - name: voice/event/he/he_005.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_005.vset
+  - name: voice/event/he/he_006.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_006.vset
+  - name: voice/event/he/he_007.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_007.vset
+  - name: voice/event/he/he_015.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_015.vset
+  - name: voice/event/he/he_016.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_016.vset
+  - name: voice/event/he/he_018.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_018.vset
+  - name: voice/event/he/he_020.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_020.vset
+  - name: voice/event/he/he_022.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_022.vset
+  - name: voice/event/he/he_023.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_023.vset
+  - name: voice/event/he/he_024.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_024.vset
+  - name: voice/event/he/he_030.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_030.vset
+  - name: voice/event/he/he_035.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_035.vset
+  - name: voice/event/he/he_036.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_036.vset
+  - name: voice/event/he/he_040.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_040.vset
+  - name: voice/event/he/he_041.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_041.vset
+  - name: voice/event/he/he_042.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_042.vset
+  - name: voice/event/he/he_043.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_043.vset
+  - name: voice/event/he/he_044.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_044.vset
+  - name: voice/event/he/he_050.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_050.vset
+  - name: voice/event/he/he_051.vset
+    method: copy
+    source:
+      - name: voice/event/he/he_051.vset
+  - name: voice/event/lm/lm_001.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_001.vset
+  - name: voice/event/lm/lm_002.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_002.vset
+  - name: voice/event/lm/lm_003.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_003.vset
+  - name: voice/event/lm/lm_004.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_004.vset
+  - name: voice/event/lm/lm_005.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_005.vset
+  - name: voice/event/lm/lm_006.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_006.vset
+  - name: voice/event/lm/lm_007.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_007.vset
+  - name: voice/event/lm/lm_008.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_008.vset
+  - name: voice/event/lm/lm_009.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_009.vset
+  - name: voice/event/lm/lm_010.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_010.vset
+  - name: voice/event/lm/lm_011.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_011.vset
+  - name: voice/event/lm/lm_012.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_012.vset
+  - name: voice/event/lm/lm_013.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_013.vset
+  - name: voice/event/lm/lm_014.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_014.vset
+  - name: voice/event/lm/lm_015.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_015.vset
+  - name: voice/event/lm/lm_016.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_016.vset
+  - name: voice/event/lm/lm_017.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_017.vset
+  - name: voice/event/lm/lm_018.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_018.vset
+  - name: voice/event/lm/lm_019.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_019.vset
+  - name: voice/event/lm/lm_020.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_020.vset
+  - name: voice/event/lm/lm_021.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_021.vset
+  - name: voice/event/lm/lm_022.vset
+    method: copy
+    source:
+      - name: voice/event/lm/lm_022.vset
+  - name: voice/event/nm/nm_001.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_001.vset
+  - name: voice/event/nm/nm_002.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_002.vset
+  - name: voice/event/nm/nm_003.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_003.vset
+  - name: voice/event/nm/nm_004.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_004.vset
+  - name: voice/event/nm/nm_005.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_005.vset
+  - name: voice/event/nm/nm_006.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_006.vset
+  - name: voice/event/nm/nm_007.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_007.vset
+  - name: voice/event/nm/nm_008.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_008.vset
+  - name: voice/event/nm/nm_009.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_009.vset
+  - name: voice/event/nm/nm_010.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_010.vset
+  - name: voice/event/nm/nm_011.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_011.vset
+  - name: voice/event/nm/nm_014.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_014.vset
+  - name: voice/event/nm/nm_018.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_018.vset
+  - name: voice/event/nm/nm_019.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_019.vset
+  - name: voice/event/nm/nm_022.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_022.vset
+  - name: voice/event/nm/nm_023.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_023.vset
+  - name: voice/event/nm/nm_024.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_024.vset
+  - name: voice/event/nm/nm_025.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_025.vset
+  - name: voice/event/nm/nm_027.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_027.vset
+  - name: voice/event/nm/nm_061.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_061.vset
+  - name: voice/event/nm/nm_062.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_062.vset
+  - name: voice/event/nm/nm_063.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_063.vset
+  - name: voice/event/nm/nm_100.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_100.vset
+  - name: voice/event/nm/nm_101.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_101.vset
+  - name: voice/event/nm/nm_102.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_102.vset
+  - name: voice/event/nm/nm_103.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_103.vset
+  - name: voice/event/nm/nm_104.vset
+    method: copy
+    source:
+      - name: voice/event/nm/nm_104.vset
+  - name: voice/event/pc/pc_011.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_011.vset
+  - name: voice/event/pc/pc_012.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_012.vset
+  - name: voice/event/pc/pc_071.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_071.vset
+  - name: voice/event/pc/pc_072.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_072.vset
+  - name: voice/event/pc/pc_073.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_073.vset
+  - name: voice/event/pc/pc_074.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_074.vset
+  - name: voice/event/pc/pc_075.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_075.vset
+  - name: voice/event/pc/pc_076.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_076.vset
+  - name: voice/event/pc/pc_077.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_077.vset
+  - name: voice/event/pc/pc_091.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_091.vset
+  - name: voice/event/pc/pc_101.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_101.vset
+  - name: voice/event/pc/pc_102.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_102.vset
+  - name: voice/event/pc/pc_103.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_103.vset
+  - name: voice/event/pc/pc_104.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_104.vset
+  - name: voice/event/pc/pc_111.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_111.vset
+  - name: voice/event/pc/pc_131.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_131.vset
+  - name: voice/event/pc/pc_132.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_132.vset
+  - name: voice/event/pc/pc_141.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_141.vset
+  - name: voice/event/pc/pc_142.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_142.vset
+  - name: voice/event/pc/pc_151.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_151.vset
+  - name: voice/event/pc/pc_171.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_171.vset
+  - name: voice/event/pc/pc_172.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_172.vset
+  - name: voice/event/pc/pc_181.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_181.vset
+  - name: voice/event/pc/pc_191.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_191.vset
+  - name: voice/event/pc/pc_192.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_192.vset
+  - name: voice/event/pc/pc_193.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_193.vset
+  - name: voice/event/pc/pc_201.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_201.vset
+  - name: voice/event/pc/pc_202.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_202.vset
+  - name: voice/event/pc/pc_203.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_203.vset
+  - name: voice/event/pc/pc_204.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_204.vset
+  - name: voice/event/pc/pc_211.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_211.vset
+  - name: voice/event/pc/pc_241.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_241.vset
+  - name: voice/event/pc/pc_242.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_242.vset
+  - name: voice/event/pc/pc_311.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_311.vset
+  - name: voice/event/pc/pc_321.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_321.vset
+  - name: voice/event/pc/pc_331.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_331.vset
+  - name: voice/event/pc/pc_341.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_341.vset
+  - name: voice/event/pc/pc_371.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_371.vset
+  - name: voice/event/pc/pc_381.vset
+    method: copy
+    source:
+      - name: voice/event/pc/pc_381.vset
+  - name: voice/event/pi/pi_001.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_001.vset
+  - name: voice/event/pi/pi_002.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_002.vset
+  - name: voice/event/pi/pi_003.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_003.vset
+  - name: voice/event/pi/pi_004.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_004.vset
+  - name: voice/event/pi/pi_005.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_005.vset
+  - name: voice/event/pi/pi_006.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_006.vset
+  - name: voice/event/pi/pi_007.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_007.vset
+  - name: voice/event/pi/pi_008.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_008.vset
+  - name: voice/event/pi/pi_009.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_009.vset
+  - name: voice/event/pi/pi_010.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_010.vset
+  - name: voice/event/pi/pi_011.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_011.vset
+  - name: voice/event/pi/pi_012.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_012.vset
+  - name: voice/event/pi/pi_013.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_013.vset
+  - name: voice/event/pi/pi_014.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_014.vset
+  - name: voice/event/pi/pi_015.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_015.vset
+  - name: voice/event/pi/pi_016.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_016.vset
+  - name: voice/event/pi/pi_017.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_017.vset
+  - name: voice/event/pi/pi_018.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_018.vset
+  - name: voice/event/pi/pi_019.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_019.vset
+  - name: voice/event/pi/pi_020.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_020.vset
+  - name: voice/event/pi/pi_021.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_021.vset
+  - name: voice/event/pi/pi_022.vset
+    method: copy
+    source:
+      - name: voice/event/pi/pi_022.vset
+  - name: voice/event/po/po_001.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_001.vset
+  - name: voice/event/po/po_002.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_002.vset
+  - name: voice/event/po/po_003.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_003.vset
+  - name: voice/event/po/po_004.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_004.vset
+  - name: voice/event/po/po_005.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_005.vset
+  - name: voice/event/po/po_006.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_006.vset
+  - name: voice/event/po/po_007.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_007.vset
+  - name: voice/event/po/po_008.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_008.vset
+  - name: voice/event/po/po_009.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_009.vset
+  - name: voice/event/po/po_010.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_010.vset
+  - name: voice/event/po/po_011.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_011.vset
+  - name: voice/event/po/po_012.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_012.vset
+  - name: voice/event/po/po_013.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_013.vset
+  - name: voice/event/po/po_014.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_014.vset
+  - name: voice/event/po/po_015.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_015.vset
+  - name: voice/event/po/po_016.vset
+    method: copy
+    source:
+      - name: voice/event/po/po_016.vset
+  - name: voice/event/pp/pp_000.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_000.vset
+  - name: voice/event/pp/pp_001.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_001.vset
+  - name: voice/event/pp/pp_099.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_099.vset
+  - name: voice/event/pp/pp_103.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_103.vset
+  - name: voice/event/pp/pp_104.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_104.vset
+  - name: voice/event/pp/pp_105.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_105.vset
+  - name: voice/event/pp/pp_106.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_106.vset
+  - name: voice/event/pp/pp_107.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_107.vset
+  - name: voice/event/pp/pp_108.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_108.vset
+  - name: voice/event/pp/pp_109.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_109.vset
+  - name: voice/event/pp/pp_110.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_110.vset
+  - name: voice/event/pp/pp_111.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_111.vset
+  - name: voice/event/pp/pp_112.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_112.vset
+  - name: voice/event/pp/pp_113.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_113.vset
+  - name: voice/event/pp/pp_114.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_114.vset
+  - name: voice/event/pp/pp_115.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_115.vset
+  - name: voice/event/pp/pp_116.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_116.vset
+  - name: voice/event/pp/pp_117.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_117.vset
+  - name: voice/event/pp/pp_118.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_118.vset
+  - name: voice/event/pp/pp_119.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_119.vset
+  - name: voice/event/pp/pp_120.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_120.vset
+  - name: voice/event/pp/pp_121.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_121.vset
+  - name: voice/event/pp/pp_122.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_122.vset
+  - name: voice/event/pp/pp_123.vset
+    method: copy
+    source:
+      - name: voice/event/pp/pp_123.vset
+  - name: voice/event/tw/tw_001.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_001.vset
+  - name: voice/event/tw/tw_002.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_002.vset
+  - name: voice/event/tw/tw_006.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_006.vset
+  - name: voice/event/tw/tw_007.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_007.vset
+  - name: voice/event/tw/tw_008.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_008.vset
+  - name: voice/event/tw/tw_009.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_009.vset
+  - name: voice/event/tw/tw_010.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_010.vset
+  - name: voice/event/tw/tw_011.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_011.vset
+  - name: voice/event/tw/tw_012.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_012.vset
+  - name: voice/event/tw/tw_013.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_013.vset
+  - name: voice/event/tw/tw_014.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_014.vset
+  - name: voice/event/tw/tw_015.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_015.vset
+  - name: voice/event/tw/tw_016.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_016.vset
+  - name: voice/event/tw/tw_017.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_017.vset
+  - name: voice/event/tw/tw_018.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_018.vset
+  - name: voice/event/tw/tw_019.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_019.vset
+  - name: voice/event/tw/tw_020.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_020.vset
+  - name: voice/event/tw/tw_030.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_030.vset
+  - name: voice/event/tw/tw_031.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_031.vset
+  - name: voice/event/tw/tw_032.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_032.vset
+  - name: voice/event/tw/tw_033.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_033.vset
+  - name: voice/event/tw/tw_034.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_034.vset
+  - name: voice/event/tw/tw_035.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_035.vset
+  - name: voice/event/tw/tw_040.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_040.vset
+  - name: voice/event/tw/tw_050.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_050.vset
+  - name: voice/event/tw/tw_051.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_051.vset
+  - name: voice/event/tw/tw_052.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_052.vset
+  - name: voice/event/tw/tw_053.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_053.vset
+  - name: voice/event/tw/tw_054.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_054.vset
+  - name: voice/event/tw/tw_055.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_055.vset
+  - name: voice/event/tw/tw_060.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_060.vset
+  - name: voice/event/tw/tw_061.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_061.vset
+  - name: voice/event/tw/tw_071.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_071.vset
+  - name: voice/event/tw/tw_090.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_090.vset
+  - name: voice/event/tw/tw_091.vset
+    method: copy
+    source:
+      - name: voice/event/tw/tw_091.vset
+  - name: voice/event/tz/tz_001.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_001.vset
+  - name: voice/event/tz/tz_002.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_002.vset
+  - name: voice/event/tz/tz_003.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_003.vset
+  - name: voice/event/tz/tz_004.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_004.vset
+  - name: voice/event/tz/tz_005.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_005.vset
+  - name: voice/event/tz/tz_006.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_006.vset
+  - name: voice/event/tz/tz_007.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_007.vset
+  - name: voice/event/tz/tz_008.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_008.vset
+  - name: voice/event/tz/tz_009.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_009.vset
+  - name: voice/event/tz/tz_010.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_010.vset
+  - name: voice/event/tz/tz_011.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_011.vset
+  - name: voice/event/tz/tz_012.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_012.vset
+  - name: voice/event/tz/tz_013.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_013.vset
+  - name: voice/event/tz/tz_014.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_014.vset
+  - name: voice/event/tz/tz_015.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_015.vset
+  - name: voice/event/tz/tz_016.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_016.vset
+  - name: voice/event/tz/tz_017.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_017.vset
+  - name: voice/event/tz/tz_018.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_018.vset
+  - name: voice/event/tz/tz_019.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_019.vset
+  - name: voice/event/tz/tz_020.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_020.vset
+  - name: voice/event/tz/tz_021.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_021.vset
+  - name: voice/event/tz/tz_022.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_022.vset
+  - name: voice/event/tz/tz_023.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_023.vset
+  - name: voice/event/tz/tz_024.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_024.vset
+  - name: voice/event/tz/tz_025.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_025.vset
+  - name: voice/event/tz/tz_026.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_026.vset
+  - name: voice/event/tz/tz_090.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_090.vset
+  - name: voice/event/tz/tz_091.vset
+    method: copy
+    source:
+      - name: voice/event/tz/tz_091.vset
+  - name: voice/ew_donald.vsb
+    method: copy
+    source:
+      - name: voice/ew_donald.vsb
+  - name: voice/ew_goofy.vsb
+    method: copy
+    source:
+      - name: voice/ew_goofy.vsb
+  - name: voice/ew_sora.vsb
+    method: copy
+    source:
+      - name: voice/ew_sora.vsb
+  - name: voice/he_donald.vsb
+    method: copy
+    source:
+      - name: voice/he_donald.vsb
+  - name: voice/he_goofy.vsb
+    method: copy
+    source:
+      - name: voice/he_goofy.vsb
+  - name: voice/he_sora.vsb
+    method: copy
+    source:
+      - name: voice/he_sora.vsb
+  - name: voice/jack.vsb
+    method: copy
+    source:
+      - name: voice/jack.vsb
+  - name: voice/lm_donald.vsb
+    method: copy
+    source:
+      - name: voice/lm_donald.vsb
+  - name: voice/lm_goofy.vsb
+    method: copy
+    source:
+      - name: voice/lm_goofy.vsb
+  - name: voice/lm_sora.vsb
+    method: copy
+    source:
+      - name: voice/lm_sora.vsb
+  - name: voice/nm_donald.vsb
+    method: copy
+    source:
+      - name: voice/nm_donald.vsb
+  - name: voice/nm_goofy.vsb
+    method: copy
+    source:
+      - name: voice/nm_goofy.vsb
+  - name: voice/nm_sora.vsb
+    method: copy
+    source:
+      - name: voice/nm_sora.vsb
+  - name: voice/pc_donald.vsb
+    method: copy
+    source:
+      - name: voice/pc_donald.vsb
+  - name: voice/pc_goofy.vsb
+    method: copy
+    source:
+      - name: voice/pc_goofy.vsb
+  - name: voice/pc_sora.vsb
+    method: copy
+    source:
+      - name: voice/pc_sora.vsb
+  - name: voice/peterpan.vsb
+    method: copy
+    source:
+      - name: voice/peterpan.vsb
+  - name: voice/pi_donald.vsb
+    method: copy
+    source:
+      - name: voice/pi_donald.vsb
+  - name: voice/pi_goofy.vsb
+    method: copy
+    source:
+      - name: voice/pi_goofy.vsb
+  - name: voice/pi_sora.vsb
+    method: copy
+    source:
+      - name: voice/pi_sora.vsb
+  - name: voice/po_sora.vsb
+    method: copy
+    source:
+      - name: voice/po_sora.vsb
+  - name: voice/pp_donald.vsb
+    method: copy
+    source:
+      - name: voice/pp_donald.vsb
+  - name: voice/pp_goofy.vsb
+    method: copy
+    source:
+      - name: voice/pp_goofy.vsb
+  - name: voice/pp_sora.vsb
+    method: copy
+    source:
+      - name: voice/pp_sora.vsb
+  - name: voice/tarzan.vsb
+    method: copy
+    source:
+      - name: voice/tarzan.vsb
+  - name: voice/tw_donald.vsb
+    method: copy
+    source:
+      - name: voice/tw_donald.vsb
+  - name: voice/tw_goofy.vsb
+    method: copy
+    source:
+      - name: voice/tw_goofy.vsb
+  - name: voice/tw_sora.vsb
+    method: copy
+    source:
+      - name: voice/tw_sora.vsb
+  - name: voice/tw_sora2.vsb
+    method: copy
+    source:
+      - name: voice/tw_sora2.vsb
+  - name: voice/tz_donald.vsb
+    method: copy
+    source:
+      - name: voice/tz_donald.vsb
+  - name: voice/tz_goofy.vsb
+    method: copy
+    source:
+      - name: voice/tz_goofy.vsb
+  - name: voice/tz_sora.vsb
+    method: copy
+    source:
+      - name: voice/tz_sora.vsb
+  - name: voice/zz_sora.vsb
+    method: copy
+    source:
+      - name: voice/zz_sora.vsb
+  - name: xa_al_1020.mdls
+    method: copy
+    source:
+      - name: xa_al_1020.mdls
+  - name: xa_al_1020.mset
+    method: copy
+    source:
+      - name: xa_al_1020.mset
+  - name: xa_al_1020_E.mset
+    method: copy
+    source:
+      - name: xa_al_1020_E.mset
+  - name: xa_al_3010.mdls
+    method: copy
+    source:
+      - name: xa_al_3010.mdls
+  - name: xa_al_3010.mset
+    method: copy
+    source:
+      - name: xa_al_3010.mset
+  - name: xa_al_3010_E.mset
+    method: copy
+    source:
+      - name: xa_al_3010_E.mset
+  - name: xa_al_3020.mdls
+    method: copy
+    source:
+      - name: xa_al_3020.mdls
+  - name: xa_al_3020.mset
+    method: copy
+    source:
+      - name: xa_al_3020.mset
+  - name: xa_aw_1010.mdls
+    method: copy
+    source:
+      - name: xa_aw_1010.mdls
+  - name: xa_aw_1010.mset
+    method: copy
+    source:
+      - name: xa_aw_1010.mset
+  - name: xa_di_1010.mdls
+    method: copy
+    source:
+      - name: xa_di_1010.mdls
+  - name: xa_di_1010.mset
+    method: copy
+    source:
+      - name: xa_di_1010.mset
+  - name: xa_di_1010_E.mset
+    method: copy
+    source:
+      - name: xa_di_1010_E.mset
+  - name: xa_di_1020.mdls
+    method: copy
+    source:
+      - name: xa_di_1020.mdls
+  - name: xa_di_1020.mset
+    method: copy
+    source:
+      - name: xa_di_1020.mset
+  - name: xa_di_1020_E.mset
+    method: copy
+    source:
+      - name: xa_di_1020_E.mset
+  - name: xa_di_1030.mdls
+    method: copy
+    source:
+      - name: xa_di_1030.mdls
+  - name: xa_di_1030.mset
+    method: copy
+    source:
+      - name: xa_di_1030.mset
+  - name: xa_di_1030_E.mset
+    method: copy
+    source:
+      - name: xa_di_1030_E.mset
+  - name: xa_ew_3020.mdls
+    method: copy
+    source:
+      - name: xa_ew_3020.mdls
+  - name: xa_ew_3020.mset
+    method: copy
+    source:
+      - name: xa_ew_3020.mset
+  - name: xa_ex_1010.mdls
+    method: copy
+    source:
+      - name: xa_ex_1010.mdls
+  - name: xa_ex_1010.mset
+    method: copy
+    source:
+      - name: xa_ex_1010.mset
+  - name: xa_ex_1010_E.mset
+    method: copy
+    source:
+      - name: xa_ex_1010_E.mset
+  - name: xa_ex_1030.mdls
+    method: copy
+    source:
+      - name: xa_ex_1030.mdls
+  - name: xa_ex_1030.mset
+    method: copy
+    source:
+      - name: xa_ex_1030.mset
+  - name: xa_ex_1040.mdls
+    method: copy
+    source:
+      - name: xa_ex_1040.mdls
+  - name: xa_ex_1040.mset
+    method: copy
+    source:
+      - name: xa_ex_1040.mset
+  - name: xa_ex_1090.mdls
+    method: copy
+    source:
+      - name: xa_ex_1090.mdls
+  - name: xa_ex_1090.mset
+    method: copy
+    source:
+      - name: xa_ex_1090.mset
+  - name: xa_ex_1150.mdls
+    method: copy
+    source:
+      - name: xa_ex_1150.mdls
+  - name: xa_ex_1150.mset
+    method: copy
+    source:
+      - name: xa_ex_1150.mset
+  - name: xa_ex_1150_E.mset
+    method: copy
+    source:
+      - name: xa_ex_1150_E.mset
+  - name: xa_ex_1160.mdls
+    method: copy
+    source:
+      - name: xa_ex_1160.mdls
+  - name: xa_ex_1160.mset
+    method: copy
+    source:
+      - name: xa_ex_1160.mset
+  - name: xa_ex_1560.mdls
+    method: copy
+    source:
+      - name: xa_ex_1560.mdls
+  - name: xa_ex_1560.mset
+    method: copy
+    source:
+      - name: xa_ex_1560.mset
+  - name: xa_ex_1580.mdls
+    method: copy
+    source:
+      - name: xa_ex_1580.mdls
+  - name: xa_ex_1580.mset
+    method: copy
+    source:
+      - name: xa_ex_1580.mset
+  - name: xa_ex_1630.mdls
+    method: copy
+    source:
+      - name: xa_ex_1630.mdls
+  - name: xa_ex_1630.mset
+    method: copy
+    source:
+      - name: xa_ex_1630.mset
+  - name: xa_ex_1630_E.mset
+    method: copy
+    source:
+      - name: xa_ex_1630_E.mset
+  - name: xa_ex_2170.mdls
+    method: copy
+    source:
+      - name: xa_ex_2170.mdls
+  - name: xa_ex_2170.mset
+    method: copy
+    source:
+      - name: xa_ex_2170.mset
+  - name: xa_ex_3000.mdls
+    method: copy
+    source:
+      - name: xa_ex_3000.mdls
+  - name: xa_ex_3000.mset
+    method: copy
+    source:
+      - name: xa_ex_3000.mset
+  - name: xa_ex_4010.mdls
+    method: copy
+    source:
+      - name: xa_ex_4010.mdls
+  - name: xa_ex_4010.mset
+    method: copy
+    source:
+      - name: xa_ex_4010.mset
+  - name: xa_ex_4010_E.mset
+    method: copy
+    source:
+      - name: xa_ex_4010_E.mset
+  - name: xa_ex_4010_E2.mset
+    method: copy
+    source:
+      - name: xa_ex_4010_E2.mset
+  - name: xa_ex_4040.mdls
+    method: copy
+    source:
+      - name: xa_ex_4040.mdls
+  - name: xa_ex_4040.mset
+    method: copy
+    source:
+      - name: xa_ex_4040.mset
+  - name: xa_ex_4040_E.mset
+    method: copy
+    source:
+      - name: xa_ex_4040_E.mset
+  - name: xa_ex_4042.mdls
+    method: copy
+    source:
+      - name: xa_ex_4042.mdls
+  - name: xa_ex_4042.mset
+    method: copy
+    source:
+      - name: xa_ex_4042.mset
+  - name: xa_ex_4060.mdls
+    method: copy
+    source:
+      - name: xa_ex_4060.mdls
+  - name: xa_ex_4060.mset
+    method: copy
+    source:
+      - name: xa_ex_4060.mset
+  - name: xa_he_1010.mdls
+    method: copy
+    source:
+      - name: xa_he_1010.mdls
+  - name: xa_he_1010.mset
+    method: copy
+    source:
+      - name: xa_he_1010.mset
+  - name: xa_lm_1050.mdls
+    method: copy
+    source:
+      - name: xa_lm_1050.mdls
+  - name: xa_lm_1050.mset
+    method: copy
+    source:
+      - name: xa_lm_1050.mset
+  - name: xa_lm_1050_E.mset
+    method: copy
+    source:
+      - name: xa_lm_1050_E.mset
+  - name: xa_lm_3000.mdls
+    method: copy
+    source:
+      - name: xa_lm_3000.mdls
+  - name: xa_lm_3000.mset
+    method: copy
+    source:
+      - name: xa_lm_3000.mset
+  - name: xa_lm_3020.mdls
+    method: copy
+    source:
+      - name: xa_lm_3020.mdls
+  - name: xa_lm_3020.mset
+    method: copy
+    source:
+      - name: xa_lm_3020.mset
+  - name: xa_lm_3020_E.mset
+    method: copy
+    source:
+      - name: xa_lm_3020_E.mset
+  - name: xa_lm_3020_J.mset
+    method: copy
+    source:
+      - name: xa_lm_3020_J.mset
+  - name: xa_nm_1030.mdls
+    method: copy
+    source:
+      - name: xa_nm_1030.mdls
+  - name: xa_nm_1030.mset
+    method: copy
+    source:
+      - name: xa_nm_1030.mset
+  - name: xa_nm_1040.mdls
+    method: copy
+    source:
+      - name: xa_nm_1040.mdls
+  - name: xa_nm_1040.mset
+    method: copy
+    source:
+      - name: xa_nm_1040.mset
+  - name: xa_nm_1050.mdls
+    method: copy
+    source:
+      - name: xa_nm_1050.mdls
+  - name: xa_nm_1050.mset
+    method: copy
+    source:
+      - name: xa_nm_1050.mset
+  - name: xa_nm_3000.mdls
+    method: copy
+    source:
+      - name: xa_nm_3000.mdls
+  - name: xa_nm_3000.mset
+    method: copy
+    source:
+      - name: xa_nm_3000.mset
+  - name: xa_pi_1000.mdls
+    method: copy
+    source:
+      - name: xa_pi_1000.mdls
+  - name: xa_pi_1000.mset
+    method: copy
+    source:
+      - name: xa_pi_1000.mset
+  - name: xa_pi_1000_b.mset
+    method: copy
+    source:
+      - name: xa_pi_1000_b.mset
+  - name: xa_pi_1000_E.mset
+    method: copy
+    source:
+      - name: xa_pi_1000_E.mset
+  - name: xa_pp_3000.mdls
+    method: copy
+    source:
+      - name: xa_pp_3000.mdls
+  - name: xa_pp_3000.mset
+    method: copy
+    source:
+      - name: xa_pp_3000.mset
+  - name: xa_pp_3000_E.mset
+    method: copy
+    source:
+      - name: xa_pp_3000_E.mset
+  - name: xa_tz_3010.mdls
+    method: copy
+    source:
+      - name: xa_tz_3010.mdls
+  - name: xa_tz_3010.mset
+    method: copy
+    source:
+      - name: xa_tz_3010.mset
+  - name: xa_tz_3010_E.mset
+    method: copy
+    source:
+      - name: xa_tz_3010_E.mset
+  - name: xa_tz_3020.mdls
+    method: copy
+    source:
+      - name: xa_tz_3020.mdls
+  - name: xa_tz_3020.mset
+    method: copy
+    source:
+      - name: xa_tz_3020.mset
+  - name: xa_tz_3040.mdls
+    method: copy
+    source:
+      - name: xa_tz_3040.mdls
+  - name: xa_tz_3040_dic.mset
+    method: copy
+    source:
+      - name: xa_tz_3040_dic.mset
+  - name: xs_genie.dat
+    method: copy
+    source:
+      - name: xs_genie.dat
+  - name: xs_mushu.dat
+    method: copy
+    source:
+      - name: xs_mushu.dat
